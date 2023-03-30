@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#logoContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+#logo { 
+    font-size: 30px;
+    color:#0054A0;
+    font-style: italic;
+    font-family: impact;
+ }
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image:url('C:/Users/kenny/OneDrive/Desktop/YearUp/CIS301/Week 4/Project4/picture33.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+}
+
+.heading-primary {
+    color: #0054A0;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 350px;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-shadow: 0 2px white, 0 3px #777;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7.4px;
+    color: #0054A0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+    background-color: #DE9C19;
+    color: white;
+    margin-top: 15px;
+}
+
+#introContainer {
+    top: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;;
+    background: #dfdfdf;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+#introOne {
+    float: left;
+}
+
+#introTwo {
+    float: right;
+}
+
+.heading {
+    font-size: 30px;
+    color: #0054A0;
+}
+
+.para {
+    color:#DE9C19;
+    font-size: 20px;
+    font-weight: bold;;
+}
+
+#intro3 {
+    width: 100%;
+    font-size: 30px;
+    color: #0054A0
+}
+
+#intro33 {
+    color: #0054A0;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
